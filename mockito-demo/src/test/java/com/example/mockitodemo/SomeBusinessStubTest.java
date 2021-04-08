@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SomeBusinessImplTest {
+class SomeBusinessStubTest {
 
     @Test
     void findGreaterFromAllData() {
@@ -14,10 +14,10 @@ class SomeBusinessImplTest {
     }
 }
 
-class DataServiceStub implements DataService{
+class DataServiceStub implements DataService {
 
     @Override
     public int[] retrieveAllData() {
-        return new int[] {24,6,15};
+        return new int[]{24, 6, 15};
     }
 }

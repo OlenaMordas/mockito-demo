@@ -3,7 +3,6 @@ package com.example.mockitodemo;
 public class SomeBusinessImpl{
 
     private DataService dataService;
-
     public SomeBusinessImpl(DataService dataService) {
         this.dataService = dataService;
     }
